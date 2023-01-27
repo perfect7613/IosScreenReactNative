@@ -4,7 +4,6 @@ import NotificationItem from './NotificationItem';
 
 
 const NotificationsList = ({...flatListProps}) => {
-    const {height} = useWindowDimensions();
     return (
       <FlatList
         data={notifications}
